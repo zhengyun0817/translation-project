@@ -1,1 +1,1 @@
-
+When I first started working in industry, one of the things I quickly realized is sometimes you have to gather, organize, and clean your own data. For this tutorial, we will gather data from a crowdfunding website called FundRazr. Like many websites, the site has its own structure, form, and has tons of accessible useful data, but it is hard to get data from the site as it doesn’t have a structured API. In result, we will web scrape the site to get that unstructured website data and put into an ordered form to build our own dataset.
