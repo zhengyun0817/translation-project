@@ -3,6 +3,7 @@ http://prose.io Using Scrapy to Build your Own Dataset
 Web Scraping (Scrapy) using Python
 
 When I first started working in industry, one of the things I quickly realized is sometimes you have to gather, organize, and clean your own data. For this tutorial, we will gather data from a crowdfunding website called FundRazr. Like many websites, the site has its own structure, form, and has tons of accessible useful data, but it is hard to get data from the site as it doesn’t have a structured API. In result, we will web scrape the site to get that unstructured website data and put into an ordered form to build our own dataset.
+当我最开始从事这个行业时，我很快意识到一件事，有时你不得不收集，组织和清理你自己的数据。在本教程中，您将从一个名为FundRazr的众筹网站上收集数据。像很多其他网站一样，这个网站有自己的结构，形式和大量可获取的有用的数据，但是获取数据没有那么容易，因为它没有结构化的	API.因此，我们将从网站抓取非结构化的数据然后放入有序的形式中以建立我们自己的数据。
 
 In order to scrape the website, we will use Scrapy. In short, Scrapy is a framework built to build web scrapers more easily and relieve the pain of maintaining them. Basically, it allows you to focus on the data extraction using CSS selectors and choosing XPath expressions and less on the intricate internals of how spiders are supposed to work. This blog post goes a little beyond the great official tutorial from the scrapy documentation in the hopes that if you need to scrape something a bit harder, you can do it on your own. With that, lets get started. If you get lost, I recommend opening the video in a separate tab.
 
